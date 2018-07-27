@@ -2,7 +2,7 @@ public class Demo
 {
 public static void main(String[] args)
 {
-Scanner sc=new Scannner(System.in);
+Scanner sc=new Scanner(System.in);
 int number;
 System.out.println("enter a number");
 number=sc.newInt();
