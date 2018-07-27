@@ -1,6 +1,6 @@
 public class Demo
 {
-public stsatic void main(String[] args)
+public static void main(String[] args)
 {
 Scanner sc=new Scannner(System.in);
 int number;
