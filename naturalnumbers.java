@@ -12,7 +12,7 @@ while(i<=x)
 sum=sum+i;
 i++;
 }
-System.out.println("sum of"+x+"numbers is"+sum);
+System.out.println(sum);
 }
 }
 
