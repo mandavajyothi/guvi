@@ -18,6 +18,6 @@ break;
 if(!flag)
 System.out.println("yes");
 else
-system.out.println("no");
+System.out.println("no");
 }
 }
