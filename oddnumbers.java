@@ -11,7 +11,8 @@ for(i=a+1;i<b;i++)
 {
 if(i%2!=0)
 {
-System.out.println(i);
+System.out.print(i);
+System.out.print("\t");
 }
 }
 }
