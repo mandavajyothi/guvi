@@ -6,7 +6,7 @@ public static void main(String args[])
 int num,reversedInteger=0,remainder,originalInteger;
 Scanner sc=new Scanner(System.in);
 num=sc.nextInt();
-orginalInteger=num;
+originalInteger=num;
 while(num!=0)
 {
 remainder=num%10;
