@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 class Power
 {
-static booolean isPowerOfTwo(int n)
+static boolean isPowerOfTwo(int n)
 {
 if(n==0)
 return false;
@@ -18,7 +18,7 @@ public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
 int number=sc.nextInt();
-if(isPowerOfNumber(number)
+if (isPowerOfTwo(number))
 System.out.println("yes");
 else
 System.out.println("no");
