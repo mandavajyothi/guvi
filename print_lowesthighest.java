@@ -18,7 +18,7 @@ max=a[j];
 if(a[j]<min)
 min=a[j];
 }
-System.out.println(min);
+System.out.println(min+" ");
 System.out.println(max);
 }
 }
