@@ -15,7 +15,7 @@ catch(NumberFormatException e)
 numeric=false;
 }
 if(numeric)
-System.out.println("Yes");
+System.out.println("yes");
 else
 System.out.println("No");
 }
