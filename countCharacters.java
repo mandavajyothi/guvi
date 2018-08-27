@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Count
+class countnumbers
 {
 public static void main(String args[])
 {
