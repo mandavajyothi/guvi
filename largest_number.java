@@ -9,10 +9,10 @@ n=sc.nextInt();
 int a[]=new int[n];
 for(int i=0;i<n;i++)
 {
-a=sc.nextInt();
+a[i]=sc.nextInt();
 }
 max=a[0];
-for(i=0;i<n;i++)
+for(int i=0;i<n;i++)
 {
 if(max<a[i])
 max=a[i];
