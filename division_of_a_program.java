@@ -1,5 +1,5 @@
 import java.util.*;
-class Subtarction
+class Division
 {
 	public static void main(String args[])
 	{
