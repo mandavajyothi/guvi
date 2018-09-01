@@ -4,7 +4,7 @@ class Binary_representation
 {
 public static void main(String args[])
 {
-int r=0;c=0;num,b;
+int r=0,c=0,num,b;
 Scanner s1=new Scanner(System.in);
 num=s1.nextInt();
 b=num;
