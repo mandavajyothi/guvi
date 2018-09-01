@@ -1,4 +1,4 @@
-import java.uutil.*;
+import java.util.*;
 import java.io.*;
 class Binary_representation
 {
