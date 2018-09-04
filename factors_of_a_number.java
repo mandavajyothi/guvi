@@ -9,7 +9,7 @@ public static void main(String[] args)
         {
             if (number % i == 0) 
             {
-            System.out.print(i+" ");
+            System.out.printf(i+" ");
             }
         }
     }
