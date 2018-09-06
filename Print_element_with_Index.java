@@ -6,7 +6,7 @@ class Element_with_index
 public static void main(String args[])
 {
 int n;
-Scanner sc=new Scanner(system.in);
+Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
 int a[]=new int[n];
 for(int i=0;i<n;i++)
