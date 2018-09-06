@@ -9,6 +9,6 @@ Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
 a=sc.nextInt();
 b=sc.nextInt();
-System.out.println((n*((2*a)+(n-1)*d))/2);
+System.out.println((n*((2*a)+(n-1)*b))/2);
 }
 }
