@@ -20,7 +20,7 @@ if(a[i]==k)
 System.out.println("yes");
 }
   else
-  System.out.println("no")
+  System.out.println("no");
 }
 }
 }
