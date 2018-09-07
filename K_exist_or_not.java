@@ -4,7 +4,7 @@ class K_exist_or_not
 {
 public static void main(String args[])
 {
-int n,k,i;
+int n,k,count=0;
 Scanner sc=new Scanner(System.in);
 n=sc.nextInt();
 k=sc.nextInt();
@@ -18,8 +18,9 @@ for(int i=0;i<n;i++)
 if(a[i]==k)
 {
 System.out.println("yes");
-break;
 }
+  else
+  System.out.println("no")
 }
 }
 }
