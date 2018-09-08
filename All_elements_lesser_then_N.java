@@ -14,11 +14,10 @@ a[i]=sc.nextInt();
 }
 for(int j=0;j<n;j++)
 {
-	if(a[j]<n)
-	{
-		System.out.print(a[j]+" ");
-	}
-	
+if(a[j]<n)
+{
+	System.out.print(a[j]+" ");
+}
 }
 }
 }
