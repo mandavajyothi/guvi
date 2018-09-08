@@ -3,7 +3,7 @@ class Number_is_between_L_and_R
 {
 public static void main(String args[])
 {
-Scanner sc=new Scanner(System.in)
+Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
 int l=sc.nextInt();
 int r=sc.nextInt();
