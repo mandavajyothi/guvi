@@ -1,5 +1,5 @@
 import java.util.*;
-class Lexicographical_order.java
+class Lexicographical_order
 {
 public static void main(String args[])
 {
