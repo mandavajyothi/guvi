@@ -1,13 +1,14 @@
-public class Demo
+import java.util.*;
+class Demo
 {
 public static void main(String args[])
 {
-BufferedReader br=new BufferedReader(new  InputStreamReader(System.in));
-String line=br.readLine();
-int N=Integer.parseInt(line);
-for(int i=0;i<N;i++)
+int n;
+Scanner sc=new Scanner(System.in);
+n=sc.nextInt();
+for(int i=1;i<=n;i++)
 {
-System.out.println("hello word");
+System.out.println("Hello");
 }
 }
 }
