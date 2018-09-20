@@ -1,4 +1,5 @@
-public class Demo
+import java.util.*;
+class Demo
 {
 public static void main(String[] args)
 {
@@ -10,6 +11,6 @@ System.out.println("Even");
 else if(number%2!=0)
 System.out.println("Odd");
 else 
-System.out.println("Invalid);
+System.out.println("Invalid");
 }
 }
