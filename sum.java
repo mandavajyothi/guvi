@@ -1,16 +1,22 @@
-static int findsum(int N,int K)
-{ 
-int ans=0;
-int y=N/K;
-int x=N%K;
-ans=(k*(k-1)/2)*y+(x*(x+1))/2;
-return ans;
-}
-static public void main(String args[])
+import java.util.*;
+class First_K_integers
 {
-int N,K;
-Scanner sc=new Scanner(System.in);
-N=sc.nextInt();
-K=sc.nextInt();
-System.out.println(findsum(N,K));
+	public static void main(String args[])
+	{
+		int n,k,sum=0;
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		k=sc.nextInt();
+		int a[]=new int[n];
+		for(int i=0;i<n;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		for(int i=0;i<k;i++)
+		{
+			sum=sum+a[i];
+		
+		}
+		System.out.println(sum);
+	}
 }
