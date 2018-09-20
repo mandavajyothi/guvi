@@ -1,8 +1,11 @@
-public class Demo
+import java.util.*;
+class Demo
 {
 public static void main(String args[])
 {
-int count=0,num=548;
+int count=0,num;
+Scanner sc=new Scanner(System.in);
+num=sc.nextInt();
 while(num!=0)
 {
 num/=10;
