@@ -1,16 +1,16 @@
-public class Demo
+import java.util.*;
+class Demo
 {
 public static void main(String[] args)
 {
 Scanner sc=new Scanner(System.in);
 int number;
-System.out.println("enter a number");
-number=sc.newInt();
+number=sc.nextInt();
 if(number>0)
-System.out.println("given number is positive");
+System.out.println("Positive");
 else if(number<0)
-System.out.println("given number is negative");
+System.out.println("Negative");
 else
-System.out.println("given number is zero");
+System.out.println("Zero");
 }
 }
